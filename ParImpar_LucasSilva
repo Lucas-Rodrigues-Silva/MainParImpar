@@ -1,0 +1,25 @@
+package par_lucasrodriguessilva;
+import java.util.Scanner;
+/**
+ *
+ * @author Lucas Silva
+ */
+public class Par_LucasRodriguesSilva {
+
+
+    public static void main(String[] args) {
+        int num1;
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.print("Digite o número escolhido: ");
+        num1 = entrada.nextInt();
+        
+        if(num1 % 2 == 0){
+            System.out.println("O número é Par!");
+        }
+        else{
+            System.out.println("O número é Ímpar!");
+        }
+    }
+    
+}
